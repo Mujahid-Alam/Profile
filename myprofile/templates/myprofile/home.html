@@ -17,12 +17,13 @@
   <body>
     <header>
         <nav class="navbar">
-            <p class="logo">Profile</p>
+            <p class="logo">Profile / Home </p>
                 <a class="profile-icon-link-container" href="{% url 'profile' %}">
                     <img id="rounded" src={{ request.user.profile.profile_img.url }} alt="profile-icon">
                     <span class="header-username">Hello, {{user}}</span>
                 </a>
         </nav>
+        <p>lorem</p>
     </header>
 
     {% if messages %}
