@@ -1,1 +1,8 @@
-/__pycache__/
+# /__pycache__/
+
+gdpvenv/
+__pycache__/
+myprofile/__pycache__/
+selfproject/__pycache__/
+myprofile/migrations/__pycache__/
+db.sqlite3
